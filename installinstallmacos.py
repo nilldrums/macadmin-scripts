@@ -532,8 +532,7 @@ def main():
             product_info[product_id]['title']
         ))
 
-    answer = get_input(
-        '\nChoose a product to download (1-%s): ' % len(product_info))
+    answer = 1
     try:
         index = int(answer) - 1
         if index < 0:
