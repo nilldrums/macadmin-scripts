@@ -1,3 +1,5 @@
+This branch removes user input asking for which version to download, and instead downloads the most recent avaiable version.
+
 ### macadmin-scripts
 
 Some scripts that might be of use to macOS admins. Might be related to Munki;
